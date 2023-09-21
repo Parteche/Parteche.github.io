@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Concepts of JS</title>
+</head>
+
+<!--Entender exactamente las formas y lo que secede para vincular codigo JS en un archivo html, entiendo que con la etiqueta <script></script> sepuede escribir cogido JS dentro de la etiqueta head o body y que no es lo mejor y menos con projectos grandes pero cuando se vincula el archivo externo de JS dentro del archivo html (se recomienda hacerlo hasta abajo despues de la etiqueta de cierre de body) como es que el codigo JS se refleja exactamente en donde nosotros queremos dentro de la estructura de html???-->
+
+<body>
+    <h1>Basic concepts of JavaScript</h1>
+    <h2>What a variable is?</h2>
+    <p>
+        Is a named container for storing data. Variables allow you to store and manipulate values, such as:
+
+    <ol>
+        <li>Numbers</li>
+        <li>Strings</li>
+        <li>Objects</li>
+        <li>Functions</li>
+    </ol>
+
+    Variables enable you to work with and manage data in a flexible and dynamic way.
+    </p>
+    <h2>How variables work?</h2>
+    <ol>
+        <li>Declaration: <p>You declare a variable using one of three keywords:
+            <ul>
+                <li>Var: Solo funcionan dentro de las variables donde fueron definidas y si se definen fuera de
+                    cualquier funcion se convierten en variables globales</li>
+                <li>let: Variable con alcance de bloque, es decir solo son accesibles dentro del codigo de bloque donde
+                    fueron declaradas, ademas son para variables que pueden cambiar su valor muchas veces</li>
+                <li>const: Variables con alcance de bloque que solo se les asigna valor una sola vez y no cambia.</li>
+            </ul>
+            </p>
+        </li>
+        <li>Initialization: <p>Se puede inicializar una variable cuando se declara y se asigna un valor.</p>
+        </li>
+        <li>Assignment: <p>You can change the value of a variable by assigning it new value</p>
+        </li>
+        <li>Data Types: <p>You dond't need to specify the data type of a variable explicitly, JS automatically
+                determines the data type based on the values assigned to the variable, common data types are: numbers,
+                strings, booleans, objects and functions.</p>
+        </li>
+        <li>Scope: <p>Variables have different scopes (alcances) depending on how and where they are declared. Scopes
+                defines where in your code a variable is accessible, like "var" is function scoped, while "let" and
+                "const" are block scoped.</p>
+        </li>
+        <li>Hoisting: <p>In JS, variable declarations are hoisted to the top of their containing function or block,
+                which means you can use a variable before it's declared in the code, only the declaration is hoisted,
+                not the inicialization.</p>
+        </li>
+        <li></li>
+    </ol>
+</body>
+
+</html>

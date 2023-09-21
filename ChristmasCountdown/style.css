@@ -1,0 +1,13 @@
+/*Las etiquetas en CSS solo se coloca el nombre espacio y se abren corchetes, dentro de los corchetes se colocan los estilos*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dc1a10;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Las clases en CSS primero llevan un punto, luego el nombre y luego corchetes*/
