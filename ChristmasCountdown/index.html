@@ -4,40 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link real="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Christmas Countdown</title>
 
 </head>
 
 <body>
-
-
     <!--Colocar desde el principio las clases y id que creo que utilizare para el CSS-->
 
-    <d iv class="countdown">
-        <h1>Countdown to Christmas</h1>
-        <!--div es un contenedor general para casi todo tipo de informacion, es el que mas conozco-->
-        <div id="timer">
-            <div class="timeBox">
-                <!--span queda mejor usar para agrupar contenidos que van en linea-->
-                <span id="days"> 00 </span>
-                <span>Days</span>
-            </div>
-            <div class="timeBox">
-                <span id="hours"> 00 </span>
-                <span> Hours </span>
-            </div>
-            <div class="timeBox">
-                <span id="minutes"> 00 </span>
-                <span> Minutes </span>
-            </div>
-            <div class="timeBox">
-                <span id="seconds"> 00 </span>
-                <span> Seconds </span>
+    <header class="header">
+        <div class="countdown">
+            <h1>Countdown to Christmas</h1>
+            <!--div es un contenedor general para casi todo tipo de informacion, es el que mas conozco-->
+            <div id="timer">
+                <div class="timeBox">
+                    <!--span queda mejor usar para agrupar contenidos que van en linea-->
+                    <span id="days"> 00 </span>
+                    <span>Days</span>
+                </div>
+                <div class="timeBox">
+                    <span id="hours"> 00 </span>
+                    <span> Hours </span>
+                </div>
+                <div class="timeBox">
+                    <span id="minutes"> 00 </span>
+                    <span> Minutes </span>
+                </div>
+                <div class="timeBox">
+                    <span id="seconds"> 00 </span>
+                    <span> Seconds </span>
+                </div>
             </div>
         </div>
-        </div>
-        <!--    <script src="script.js"></script> -->
+    </header>
+    <div class="collagePic">
+        <img src="/ChristmasCountdown/img/Uno.jpeg">
+        <img src="/ChristmasCountdown/img/Dos.png">
+        <img src="/ChristmasCountdown/img/Tres.jpeg">
+        <img src="/ChristmasCountdown/img/Cuatro.jpeg">
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -39,7 +39,7 @@ countdown('Dec 24 2023 12:00:00 GMT-7', 'clock', Feliz Navidad!);
 // Function to calculate the time remaining until Christmas
 function getTimeRemaining() {
     const now = new Date();
-    const christmasDay = new Date(now.getFullYear(), 11, 24); // December is 11 (0-based index)
+    const christmasDay = new Date(now.getFullYear(), 11, 25); // December is 11 (0-based index)
     const timeRemaining = christmasDay - now;
 
     const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
