@@ -1,53 +1,47 @@
 /*Las etiquetas en CSS solo se coloca el nombre espacio y se abren corchetes, dentro de los corchetes se colocan los estilos*/
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-/*Duda de este momento: no me queda claro cuando es mejor o con que es mejor trabajar: pixeles, porcentajes o rem o em?? investigar diferencias y usos.*/
-.countdown {
-    background-color: #dc102f;
-    border-radius: 9px;
-    /*Caracteristica para redondear las puntas*/
-    box-shadow: 0 0 3px 3px #dc102f;
-}
-
-h1 {
-    padding: 20px;
-}
-
-.timeBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin: 5px auto 20px;
-}
-
 * {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: #6082a3;
+
+}
+
+/*Duda de este momento: no me queda claro cuando es mejor o con que es mejor trabajar: pixeles, porcentajes o rem o em?? investigar diferencias y usos.*/
 .header {
     text-align: center;
     text-transform: uppercase;
     padding: 32px;
-    background-color: #0a0a23;
+    background-color: #0a0a21;
     color: #fff;
-    border-bottom: 4px solid #fdb347;
+    border-bottom: 4px solid #c29758;
+    border-top: 4px solid #c29758;
+    border-right: 4px solid #c29758;
+    border-left: 4px solid #c29758;
+}
+
+.collagePic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    /*Ajusta el aspecto correcto de una imagen*/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .collagePic img {
-    display: flex;
     width: 100%;
     max-width: 350px;
     height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
-
 
 /*Las clases en CSS primero llevan un punto, luego el nombre y luego corchetes*/
